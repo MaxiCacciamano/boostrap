@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Boostrap</title>
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <main class="container" id="contenedor">
+        <header id="cabecera" class="row">
+            <div id="botonera"class="col-lg-9 col-sm-6">
+              <!--comiezon hambuergas-->
+              <nav  class="navbar navbar-expand-lg navbar-light  ">
+                 <div id="boton" class="container-fluid">
+                     <a class="navbar-brand" href="#"><img src="imagenes/Logo.jpeg"></a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#presentacion">Principal</a>
+                     </li>
+                      <li class="nav-item">
+                       <a class="nav-link" href="#productos">Productos</a>
+                        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#nosotros" >¿Quienes somos?</a>
+        </li>
+        </ul>
+      </ul>
+      <form class="d-flex">
+      </form>
+    </div>
+  </div>
+</nav>
+        </header>
+        <!--fin hamburgesa-->
+        <section id="presentacion" class="row">
+          <!--slider-->
+          <div id="carouselExampleControls" class="carousel slide col-xxl-12 col-lg-12 col-sm-12 " data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/joya1.jpg" class="d-block w-100  " alt="..."class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/joya2.jpg" class="d-block w-100" alt="..."class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/joya3.jpg" class="d-block w-100" alt="..."class="img-fluid">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/joya4.jpg" class="d-block w-100" alt="..." class="img-fluid">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </section>
+        <!--comienzo productos-->
+        <section id="productos" class="row">
+         <div id="titulo"> <h1>Productos</h1></div>
+              <div id="joyas" class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="imagenes/producto1.png" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <h5 class="card-title">Anillo con piedra</h5>
+        <p class="card-text">Anillo especial para declaracion</p>
+        <a href="comprar.html" class="btn btn-primary stretched-link">Comprar</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="imagenes/producto2.jpg" class="card-img-top" alt="..."class="img-fluid">
+      <div class="card-body">
+        <h5 class="card-title">Corazon</h5>
+        <p class="card-text">Dije de corazon</p>
+        <a href="comprar.html" class="btn btn-primary stretched-link">Comprar</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="imagenes/producto3.jpg" class="card-img-top" alt="..."class="img-fluid">
+      <div class="card-body">
+        <h5 class="card-title">Corazon</h5>
+        <p class="card-text">Dije de corazon</p>
+        <a href="comprar.html" class="btn btn-primary stretched-link">Comprar</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="imagenes/producto4.jpg" class="card-img-top" alt="..."class="img-fluid">
+      <div class="card-body">
+        <h5 class="card-title">Oro</h5>
+        <p class="card-text">Joyas de oro</p>
+        <a href="comprar.html" class="btn btn-primary stretched-link">Comprar</a>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+    <div class="card">
+      <img src="imagenes/producto5.jpg" class="card-img-top" alt="..."class="img-fluid">
+      <div class="card-body">
+        <h5 class="card-title">Anillos</h5>
+        <p class="card-text">Anillos personaliados a tu gusto y medida</p>
+        <a href="comprar.html" class="btn btn-primary stretched-link">Comprar</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="imagenes/producto6.jpg" class="card-img-top" alt="..."class="img-fluid">
+      <div class="card-body">
+        <h5 class="card-title">Piedras preciodad</h5>
+        <p class="card-text">Tenemos la mejores joyas con piedras preciosas</p>
+        <a href="comprar.html" class="btn btn-primary stretched-link">Comprar</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--fin productos-->
+        </section>
+        <section id="nosotros" class="row gy-3">
+          <div id="titulosegundo">
+            <h2>Sobre nostros</h2>
+          </div>
+          <div id="parrafos" class="col-xxl-12 col-lg-11 col-sm-11">
+          <h4>Perla Joyas, Joyería es una boutique en línea con las tendencias y estilos más actuales de accesorios, nuestras joyas aportan un toque único a tu look porque son tan especiales como tú lo eres para nosotros.</h4>
+          <h4>Y elevar tu estado de ánimo, nuestra misión ademas de hacerte brillar es hacerte sonreir queremos que mantengas un look fresco asi que siempre estamos actualizando nuestras colecciones para que nunca dejes de sorprenderte.</h4>
+          <h4>En Joyería Aurus, compramos y vendemos joyas a un precio justo, contribuyendo a que nuestros clientes experimenten emociones y gratos momentos. Todo esto, a través de la innovación constante, amabilidad en la atención y procurando brindar un servicio de calidad</h4>
+          </div>
+        </section>
+
+        <footer id="pie" class="row gy-3">
+          <div id="contacto">
+              <p>Contactanos:</p>
+              <a href="#">perlajoyas@gmail.com</p></a>
+            </div>
+            <div id="logo">
+              <a href="#"><img src="imagenes/Logo.jpeg"class="img-fluid"></a>
+            </div>
+        </footer>
+    </main>
+    <!--Js-boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</body>
+
+</html>

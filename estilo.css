@@ -1,0 +1,194 @@
+#contenedor {
+    background-color: white;
+    height: 2100px;
+}
+#cabecera{
+    position: sticky;
+    top: 0;
+}
+#boton{
+    background-color:white;
+    font-family: 'Lobster', cursive;
+    margin-left: 120px;
+    font-size: 20px;
+    width: 1200px;
+    position: center;
+    margin: auto;
+}
+#boton img{
+   height: 120px;
+}
+#logo img{
+    height: 70%;
+}
+#contacto{
+    width: 250px;
+    background-color: white;
+    margin-top: 80px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#logo{
+    margin-left: 150px;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+}
+#contacto p{
+    text-align: left;
+    padding: 5px;
+    margin: auto;
+    color:#ff6666 ;
+}
+#contacto a{
+    text-decoration: none;
+    color:#ff6666 ;
+}
+
+#presentacion{
+background-color: white;
+}
+#productos{
+    background-color:#ff6666 ;
+    height: 1200px;
+}
+
+#nosotros{
+    background-color: #ffcccc;
+    height: 400px;
+}
+#titulosegundo{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+#parrafos{
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+#parrafos2{
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+}
+#pie{
+    background-color:white;
+    height: 300px;
+}
+#marca{
+background-color: #ffe6e6;
+
+}
+#primero{
+    background-color: #ffe6e6;
+}
+#segundo{
+    background-color: #ffcccc;
+}
+#tercero{
+    background-color: #ffb3b3;
+}
+#cuarto{
+    background-color: #ff9999;
+}
+#navbarSupportedContent{
+}
+#navbarSupportedContent li a{
+   margin: auto;
+ }
+ #navbarSupportedContent ul li a{
+    margin: auto;
+    margin-left: 90px;
+    font-size: 15;
+ }
+
+ #titulo{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+ }
+ img{
+    margin-top: 3px;
+    height: 600px;
+ }
+ .card-img-top{
+    height: 250px;
+ }
+ #contenedorcompra {
+    background-color: #ffcccc;
+    height: 800px;
+ }
+ #comprarprod{
+    height: 650px;
+ }
+ #cabeceracompra{
+    background-color: white;
+ }
+  #comprarprod{
+    height: 680px;
+ }
+ #contenedorcompra {
+    height: 800px;
+ }
+ #pie{
+    margin-top: 10px;
+}
+ @media all and (min-width: 599px) and (max-width: 1023px){
+    #boton{
+    margin: auto;
+    height: 130px;
+
+}
+    #productos{
+    height: 1300px;
+
+}
+#nosotros{
+    height: 450px;
+}
+#parrafos {
+    margin: center;
+    height: px;
+}
+#logo{
+    margin-left: 210px;
+}
+#comprarprod{
+    height: 800px;
+ }
+  #pie{
+    margin-bottom: 10px;
+}
+#contenedorcompra {
+    height: 950px;
+    background-color:#ffcccc;
+ }
+ }
+ @media all and (max-width: 599px){
+    #contenedor {
+    height: 2100px;
+}
+#joyas{
+    margin-bottom: 1200px;
+ }
+#productos{
+    height: 2850px;
+}
+#nosotros{
+    height: 550px;
+}
+ #comprarprod{
+    height: 800px;
+
+ }
+#contenedorcompra {
+    height: 900px;
+    background-color:#ffcccc;
+ }
+ #pie{
+    margin-top: 0px;
+}
+}
