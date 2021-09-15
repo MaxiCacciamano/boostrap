@@ -168,8 +168,12 @@ background-color: #ffe6e6;
  }
  }
  @media all and (max-width: 599px){
+
+header{
+    background-color: black;
+}
     #contenedor {
-    height: 2100px;
+    height: 5000px;
 }
 #joyas{
     margin-bottom: 1200px;
@@ -190,5 +194,8 @@ background-color: #ffe6e6;
  }
  #pie{
     margin-top: 0px;
+}
+#joyas{
+    background-color: black;
 }
 }
